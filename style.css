@@ -1,0 +1,125 @@
+/* Ẽx-2 */
+.container2 {
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px 15px;  
+}
+.ex-2-header {
+    height: 45px; 
+    color: #fff;
+    background-color: black;
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ex-2-navbar {
+    height: 30px;
+    background-color: rgb(211, 210, 210);
+    text-align: center;
+}
+.ex-2-navbar ul {
+    padding-top: 7px ;
+}
+.ex-2-navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+} 
+.ex-2-navbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+/* */
+.ex-2-content1 {
+    margin: 50px 0;
+    text-align: center
+}
+.content-1 {
+    font-size: 25px;
+    font-weight: bold; 
+}
+.ex-2-content1 p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ex-2-content1 button {
+    padding: 5px;
+    border-radius: 5px;
+}
+/*  */
+.content-2 {
+    text-align: center;
+}
+.content-2 h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.avatar {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.avatar img {
+    width: 150px;
+    height: 200px;
+}
+/*  */
+.content-3 {
+    text-align: center;
+    margin-top: 50px ;
+}
+/*  */
+.footer {
+    height: 35px;
+    padding: 8px;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+/* Ex-3 */
+.box {
+    margin: 50px;
+    border: 1px solid rgb(192, 191, 191);
+    background-color: rgb(212, 208, 208);
+    padding: 5px 5px 7px 10px;
+}
+.box-1 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.grid-box {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+.box-2 {
+    width: 200px;
+    height: 130px;
+    border: 1px solid black;
+}
+.box-2-1 {
+    margin: 10px 0 0 20px;
+    position: relative;
+}
+.box-2-2 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.box-2-2 button {
+    color: #fff;
+    background-color: black;
+    padding: 5px 7px;
+    border: none;
+    border-radius: 3px;
+}
